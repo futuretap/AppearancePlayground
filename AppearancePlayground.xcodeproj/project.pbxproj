@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AA2C47211435E57100E92660 /* FTFourthViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AA2C47201435E57100E92660 /* FTFourthViewController.m */; };
 		AA3427D2142CE92F009524C6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA3427D1142CE92F009524C6 /* UIKit.framework */; };
 		AA3427D4142CE92F009524C6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA3427D3142CE92F009524C6 /* Foundation.framework */; };
 		AA3427D6142CE92F009524C6 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA3427D5142CE92F009524C6 /* CoreGraphics.framework */; };
@@ -20,28 +21,73 @@
 		AA3427EF142CE92F009524C6 /* FTSecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AA3427EE142CE92F009524C6 /* FTSecondViewController.m */; };
 		AA3427F1142CE92F009524C6 /* second.png in Resources */ = {isa = PBXBuildFile; fileRef = AA3427F0142CE92F009524C6 /* second.png */; };
 		AA3427F3142CE92F009524C6 /* second@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AA3427F2142CE92F009524C6 /* second@2x.png */; };
+		AA342801142CEF0E009524C6 /* FTTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = AA342800142CEF0E009524C6 /* FTTabBarController.m */; };
+		AA342804142CF008009524C6 /* 27-planet.png in Resources */ = {isa = PBXBuildFile; fileRef = AA342802142CF008009524C6 /* 27-planet.png */; };
+		AA342805142CF008009524C6 /* 28-star.png in Resources */ = {isa = PBXBuildFile; fileRef = AA342803142CF008009524C6 /* 28-star.png */; };
+		AA342808142CF76D009524C6 /* navBarBackground.png in Resources */ = {isa = PBXBuildFile; fileRef = AA342806142CF76D009524C6 /* navBarBackground.png */; };
+		AA342809142CF76D009524C6 /* navBarBackground@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AA342807142CF76D009524C6 /* navBarBackground@2x.png */; };
+		AA34280C142CFB17009524C6 /* backButton.png in Resources */ = {isa = PBXBuildFile; fileRef = AA34280A142CFB17009524C6 /* backButton.png */; };
+		AA34280D142CFB17009524C6 /* backButton@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AA34280B142CFB17009524C6 /* backButton@2x.png */; };
+		AA342810142CFD6B009524C6 /* FTNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = AA34280F142CFD6A009524C6 /* FTNavigationController.m */; };
+		AA342813142CFE0A009524C6 /* backButton_pressed.png in Resources */ = {isa = PBXBuildFile; fileRef = AA342811142CFE0A009524C6 /* backButton_pressed.png */; };
+		AA342814142CFE0A009524C6 /* backButton_pressed@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AA342812142CFE0A009524C6 /* backButton_pressed@2x.png */; };
+		AA342817142D16F5009524C6 /* FTThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AA342816142D16F5009524C6 /* FTThirdViewController.m */; };
+		AA34281A142D1855009524C6 /* buttonBackground.png in Resources */ = {isa = PBXBuildFile; fileRef = AA342818142D1855009524C6 /* buttonBackground.png */; };
+		AA34281B142D1855009524C6 /* buttonBackground@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AA342819142D1855009524C6 /* buttonBackground@2x.png */; };
+		AA34283B14306681009524C6 /* MethodSwizzling.c in Sources */ = {isa = PBXBuildFile; fileRef = AA34283914306680009524C6 /* MethodSwizzling.c */; };
+		AA34283F14306B02009524C6 /* UIBarButtonItem+FTCustom.m in Sources */ = {isa = PBXBuildFile; fileRef = AA34283E14306B02009524C6 /* UIBarButtonItem+FTCustom.m */; };
+		AA34284414306C81009524C6 /* buttonBackground_done_pressed.png in Resources */ = {isa = PBXBuildFile; fileRef = AA34284014306C81009524C6 /* buttonBackground_done_pressed.png */; };
+		AA34284514306C81009524C6 /* buttonBackground_done_pressed@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AA34284114306C81009524C6 /* buttonBackground_done_pressed@2x.png */; };
+		AA34284614306C81009524C6 /* buttonBackground_done.png in Resources */ = {isa = PBXBuildFile; fileRef = AA34284214306C81009524C6 /* buttonBackground_done.png */; };
+		AA34284714306C81009524C6 /* buttonBackground_done@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AA34284314306C81009524C6 /* buttonBackground_done@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		AA2C471F1435E57100E92660 /* FTFourthViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FTFourthViewController.h; sourceTree = "<group>"; };
+		AA2C47201435E57100E92660 /* FTFourthViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FTFourthViewController.m; sourceTree = "<group>"; };
 		AA3427CD142CE92F009524C6 /* AppearancePlayground.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AppearancePlayground.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA3427D1142CE92F009524C6 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		AA3427D3142CE92F009524C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		AA3427D5142CE92F009524C6 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		AA3427D9142CE92F009524C6 /* AppearancePlayground-Info.plist */ = {isa = PBXFileReference; path = "AppearancePlayground-Info.plist"; sourceTree = "<group>"; };
+		AA3427D9142CE92F009524C6 /* AppearancePlayground-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AppearancePlayground-Info.plist"; sourceTree = "<group>"; };
 		AA3427DB142CE92F009524C6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		AA3427DD142CE92F009524C6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		AA3427DF142CE92F009524C6 /* AppearancePlayground-Prefix.pch */ = {isa = PBXFileReference; path = "AppearancePlayground-Prefix.pch"; sourceTree = "<group>"; };
-		AA3427E0142CE92F009524C6 /* FTAppDelegate.h */ = {isa = PBXFileReference; path = FTAppDelegate.h; sourceTree = "<group>"; };
+		AA3427DF142CE92F009524C6 /* AppearancePlayground-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AppearancePlayground-Prefix.pch"; sourceTree = "<group>"; };
+		AA3427E0142CE92F009524C6 /* FTAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FTAppDelegate.h; sourceTree = "<group>"; };
 		AA3427E1142CE92F009524C6 /* FTAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FTAppDelegate.m; sourceTree = "<group>"; };
 		AA3427E4142CE92F009524C6 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
-		AA3427E6142CE92F009524C6 /* FTFirstViewController.h */ = {isa = PBXFileReference; path = FTFirstViewController.h; sourceTree = "<group>"; };
+		AA3427E6142CE92F009524C6 /* FTFirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FTFirstViewController.h; sourceTree = "<group>"; };
 		AA3427E7142CE92F009524C6 /* FTFirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FTFirstViewController.m; sourceTree = "<group>"; };
 		AA3427E9142CE92F009524C6 /* first.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = first.png; sourceTree = "<group>"; };
 		AA3427EB142CE92F009524C6 /* first@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "first@2x.png"; sourceTree = "<group>"; };
-		AA3427ED142CE92F009524C6 /* FTSecondViewController.h */ = {isa = PBXFileReference; path = FTSecondViewController.h; sourceTree = "<group>"; };
+		AA3427ED142CE92F009524C6 /* FTSecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FTSecondViewController.h; sourceTree = "<group>"; };
 		AA3427EE142CE92F009524C6 /* FTSecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FTSecondViewController.m; sourceTree = "<group>"; };
 		AA3427F0142CE92F009524C6 /* second.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = second.png; sourceTree = "<group>"; };
 		AA3427F2142CE92F009524C6 /* second@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "second@2x.png"; sourceTree = "<group>"; };
+		AA3427FF142CEF0E009524C6 /* FTTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FTTabBarController.h; sourceTree = "<group>"; };
+		AA342800142CEF0E009524C6 /* FTTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FTTabBarController.m; sourceTree = "<group>"; };
+		AA342802142CF008009524C6 /* 27-planet.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "27-planet.png"; sourceTree = "<group>"; };
+		AA342803142CF008009524C6 /* 28-star.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "28-star.png"; sourceTree = "<group>"; };
+		AA342806142CF76D009524C6 /* navBarBackground.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = navBarBackground.png; sourceTree = "<group>"; };
+		AA342807142CF76D009524C6 /* navBarBackground@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "navBarBackground@2x.png"; sourceTree = "<group>"; };
+		AA34280A142CFB17009524C6 /* backButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = backButton.png; sourceTree = "<group>"; };
+		AA34280B142CFB17009524C6 /* backButton@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "backButton@2x.png"; sourceTree = "<group>"; };
+		AA34280E142CFD6A009524C6 /* FTNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FTNavigationController.h; sourceTree = "<group>"; };
+		AA34280F142CFD6A009524C6 /* FTNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FTNavigationController.m; sourceTree = "<group>"; };
+		AA342811142CFE0A009524C6 /* backButton_pressed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = backButton_pressed.png; sourceTree = "<group>"; };
+		AA342812142CFE0A009524C6 /* backButton_pressed@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "backButton_pressed@2x.png"; sourceTree = "<group>"; };
+		AA342815142D16F5009524C6 /* FTThirdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FTThirdViewController.h; sourceTree = "<group>"; };
+		AA342816142D16F5009524C6 /* FTThirdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FTThirdViewController.m; sourceTree = "<group>"; };
+		AA342818142D1855009524C6 /* buttonBackground.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = buttonBackground.png; sourceTree = "<group>"; };
+		AA342819142D1855009524C6 /* buttonBackground@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "buttonBackground@2x.png"; sourceTree = "<group>"; };
+		AA34283914306680009524C6 /* MethodSwizzling.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = MethodSwizzling.c; sourceTree = "<group>"; };
+		AA34283A14306680009524C6 /* MethodSwizzling.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MethodSwizzling.h; sourceTree = "<group>"; };
+		AA34283D14306B02009524C6 /* UIBarButtonItem+FTCustom.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+FTCustom.h"; sourceTree = "<group>"; };
+		AA34283E14306B02009524C6 /* UIBarButtonItem+FTCustom.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+FTCustom.m"; sourceTree = "<group>"; };
+		AA34284014306C81009524C6 /* buttonBackground_done_pressed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = buttonBackground_done_pressed.png; sourceTree = "<group>"; };
+		AA34284114306C81009524C6 /* buttonBackground_done_pressed@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "buttonBackground_done_pressed@2x.png"; sourceTree = "<group>"; };
+		AA34284214306C81009524C6 /* buttonBackground_done.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = buttonBackground_done.png; sourceTree = "<group>"; };
+		AA34284314306C81009524C6 /* buttonBackground_done@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "buttonBackground_done@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,17 +134,25 @@
 		AA3427D7142CE92F009524C6 /* AppearancePlayground */ = {
 			isa = PBXGroup;
 			children = (
+				AA3427E3142CE92F009524C6 /* MainStoryboard.storyboard */,
 				AA3427E0142CE92F009524C6 /* FTAppDelegate.h */,
 				AA3427E1142CE92F009524C6 /* FTAppDelegate.m */,
-				AA3427E3142CE92F009524C6 /* MainStoryboard.storyboard */,
+				AA3427FF142CEF0E009524C6 /* FTTabBarController.h */,
+				AA342800142CEF0E009524C6 /* FTTabBarController.m */,
+				AA34280E142CFD6A009524C6 /* FTNavigationController.h */,
+				AA34280F142CFD6A009524C6 /* FTNavigationController.m */,
 				AA3427E6142CE92F009524C6 /* FTFirstViewController.h */,
 				AA3427E7142CE92F009524C6 /* FTFirstViewController.m */,
-				AA3427E9142CE92F009524C6 /* first.png */,
-				AA3427EB142CE92F009524C6 /* first@2x.png */,
 				AA3427ED142CE92F009524C6 /* FTSecondViewController.h */,
 				AA3427EE142CE92F009524C6 /* FTSecondViewController.m */,
-				AA3427F0142CE92F009524C6 /* second.png */,
-				AA3427F2142CE92F009524C6 /* second@2x.png */,
+				AA342815142D16F5009524C6 /* FTThirdViewController.h */,
+				AA342816142D16F5009524C6 /* FTThirdViewController.m */,
+				AA2C471F1435E57100E92660 /* FTFourthViewController.h */,
+				AA2C47201435E57100E92660 /* FTFourthViewController.m */,
+				AA34283914306680009524C6 /* MethodSwizzling.c */,
+				AA34283A14306680009524C6 /* MethodSwizzling.h */,
+				AA34283D14306B02009524C6 /* UIBarButtonItem+FTCustom.h */,
+				AA34283E14306B02009524C6 /* UIBarButtonItem+FTCustom.m */,
 				AA3427D8142CE92F009524C6 /* Supporting Files */,
 			);
 			path = AppearancePlayground;
@@ -107,12 +161,38 @@
 		AA3427D8142CE92F009524C6 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				AA3427FA142CE9B7009524C6 /* Images */,
 				AA3427D9142CE92F009524C6 /* AppearancePlayground-Info.plist */,
 				AA3427DA142CE92F009524C6 /* InfoPlist.strings */,
 				AA3427DD142CE92F009524C6 /* main.m */,
 				AA3427DF142CE92F009524C6 /* AppearancePlayground-Prefix.pch */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AA3427FA142CE9B7009524C6 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				AA34280A142CFB17009524C6 /* backButton.png */,
+				AA34280B142CFB17009524C6 /* backButton@2x.png */,
+				AA342811142CFE0A009524C6 /* backButton_pressed.png */,
+				AA342812142CFE0A009524C6 /* backButton_pressed@2x.png */,
+				AA342818142D1855009524C6 /* buttonBackground.png */,
+				AA342819142D1855009524C6 /* buttonBackground@2x.png */,
+				AA34284014306C81009524C6 /* buttonBackground_done_pressed.png */,
+				AA34284114306C81009524C6 /* buttonBackground_done_pressed@2x.png */,
+				AA34284214306C81009524C6 /* buttonBackground_done.png */,
+				AA34284314306C81009524C6 /* buttonBackground_done@2x.png */,
+				AA342806142CF76D009524C6 /* navBarBackground.png */,
+				AA342807142CF76D009524C6 /* navBarBackground@2x.png */,
+				AA342802142CF008009524C6 /* 27-planet.png */,
+				AA342803142CF008009524C6 /* 28-star.png */,
+				AA3427E9142CE92F009524C6 /* first.png */,
+				AA3427EB142CE92F009524C6 /* first@2x.png */,
+				AA3427F0142CE92F009524C6 /* second.png */,
+				AA3427F2142CE92F009524C6 /* second@2x.png */,
+			);
+			name = Images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -172,6 +252,20 @@
 				AA3427EC142CE92F009524C6 /* first@2x.png in Resources */,
 				AA3427F1142CE92F009524C6 /* second.png in Resources */,
 				AA3427F3142CE92F009524C6 /* second@2x.png in Resources */,
+				AA342804142CF008009524C6 /* 27-planet.png in Resources */,
+				AA342805142CF008009524C6 /* 28-star.png in Resources */,
+				AA342808142CF76D009524C6 /* navBarBackground.png in Resources */,
+				AA342809142CF76D009524C6 /* navBarBackground@2x.png in Resources */,
+				AA34280C142CFB17009524C6 /* backButton.png in Resources */,
+				AA34280D142CFB17009524C6 /* backButton@2x.png in Resources */,
+				AA342813142CFE0A009524C6 /* backButton_pressed.png in Resources */,
+				AA342814142CFE0A009524C6 /* backButton_pressed@2x.png in Resources */,
+				AA34281A142D1855009524C6 /* buttonBackground.png in Resources */,
+				AA34281B142D1855009524C6 /* buttonBackground@2x.png in Resources */,
+				AA34284414306C81009524C6 /* buttonBackground_done_pressed.png in Resources */,
+				AA34284514306C81009524C6 /* buttonBackground_done_pressed@2x.png in Resources */,
+				AA34284614306C81009524C6 /* buttonBackground_done.png in Resources */,
+				AA34284714306C81009524C6 /* buttonBackground_done@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -186,6 +280,12 @@
 				AA3427E2142CE92F009524C6 /* FTAppDelegate.m in Sources */,
 				AA3427E8142CE92F009524C6 /* FTFirstViewController.m in Sources */,
 				AA3427EF142CE92F009524C6 /* FTSecondViewController.m in Sources */,
+				AA342801142CEF0E009524C6 /* FTTabBarController.m in Sources */,
+				AA342810142CFD6B009524C6 /* FTNavigationController.m in Sources */,
+				AA342817142D16F5009524C6 /* FTThirdViewController.m in Sources */,
+				AA34283B14306681009524C6 /* MethodSwizzling.c in Sources */,
+				AA34283F14306B02009524C6 /* UIBarButtonItem+FTCustom.m in Sources */,
+				AA2C47211435E57100E92660 /* FTFourthViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -297,6 +397,7 @@
 				AA3427F8142CE92F009524C6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

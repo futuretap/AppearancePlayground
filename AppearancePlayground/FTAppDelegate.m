@@ -7,14 +7,28 @@
 //
 
 #import "FTAppDelegate.h"
+#import "MethodSwizzling.h"
+#import "UIBarButtonItem+FTCustom.h"
 
 @implementation FTAppDelegate
 
 @synthesize window = _window;
+@synthesize tabBarController;
+
+- (id)init {
+	if ((self = [super init])) {
+//		Swizzle([UIBarButtonItem class], @selector(setStyle:), @selector(mySetStyle:));
+//		Swizzle([UIBarButtonItem class], @selector(initWithBarButtonSystemItem_My:target:action:), @selector(myInitWithBarButtonSystemItem:target:action:));
+//		Swizzle([UIBarButtonItem class], @selector(awakeFromNib), @selector(myAwakeFromNib));
+		
+		[[UIBarButtonItem appearance] setBackButtonBackgroundImage:[[UIImage imageNamed:@"backButton.png"] stretchableImageWithLeftCapWidth:14 topCapHeight:0] forState:UIControlStateNormal barMetrics:UIBarMetricsDefault];
+		
+	}
+	return self;
+}
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    // Override point for customization after application launch.
     return YES;
 }
 							

@@ -1,5 +1,5 @@
 //
-//  FTSecondViewController.h
+//  FTNavigationController.h
 //  AppearancePlayground
 //
 //  Created by Ortwin Gentz on 23.09.11.
@@ -8,7 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface FTSecondViewController : UIViewController
+@interface FTNavigationController : UINavigationController
 
-- (IBAction)changeAppearance:(id)sender;
 @end

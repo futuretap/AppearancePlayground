@@ -1,5 +1,5 @@
 //
-//  FTSecondViewController.h
+//  FTTabBarController.h
 //  AppearancePlayground
 //
 //  Created by Ortwin Gentz on 23.09.11.
@@ -8,7 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface FTSecondViewController : UIViewController
+@interface FTTabBarController : UITabBarController
 
-- (IBAction)changeAppearance:(id)sender;
 @end

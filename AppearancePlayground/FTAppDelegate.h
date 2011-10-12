@@ -8,8 +8,12 @@
 
 #import <UIKit/UIKit.h>
 
-@interface FTAppDelegate : UIResponder <UIApplicationDelegate>
+@interface FTAppDelegate : UIResponder <UIApplicationDelegate> {
+@private
+	UITabBarController *tabBarController;
+}
 
 @property (strong, nonatomic) UIWindow *window;
+@property (nonatomic, retain) IBOutlet UITabBarController *tabBarController;
 
 @end
